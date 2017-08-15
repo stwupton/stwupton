@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "Post": {
+      "class": "Identifier",
+      "name": "Post",
+      "moduleUrl": "asset:blog_client/lib/post.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #e0dfdf;
+}
+body post div#body h1, body post div#body h2, body post div#body h3, body post div#body h4, body post div#body h5, body post div#body h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+body post div#body h1 {
+  font-weight: 300;
+}
+body post div#body p code {
+  color: #c25;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 3px;
+}
+body post div#body img {
+  margin: 0 auto;
+  display: block;
+}
+body post div#body code {
+  font-size: 0.85em;
+  font-family: "Roboto Mono", consolas, monospace;
+}
+body post div#body code * {
+  font-family: "Roboto Mono", consolas, monospace;
+}
+body post div#body iframe {
+  display: block;
+  margin: 10px auto;
+}

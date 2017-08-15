@@ -1,0 +1,80 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "container_component.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AppComponent",
+        "4": [
+          {
+            "1": "RouteConfig",
+            "2": [
+              "const [const Route(path: '/', name: 'Home', component: ContainerComponent, useAsDefault: true), const Route(path: '/:year', name: 'Months', component: ContainerComponent), const Route(path: '/:year/:month', name: 'Posts', component: ContainerComponent), const Route(path: '/:year/:month/:post_id', name: 'Post', component: ContainerComponent)]"
+            ],
+            "4": false
+          }
+        ],
+        "7": [
+          {
+            "2": "ContainerComponent"
+          },
+          {
+            "2": "ROUTER_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "app_component.dart"
+  },
+  "type": {
+    "AppComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "app",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "AppComponent",
+        "moduleUrl": "asset:blog_client/web/components/app_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<router-outlet></router-outlet>\r\n",
+        "templateUrl": "asset:blog_client/web/html/app_component.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}
