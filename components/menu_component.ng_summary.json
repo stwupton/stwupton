@@ -128,7 +128,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<button id=\"menu_button\" (click)=\"isOpen ? close() : open()\"><i class=\"material-icons\">menu</i></button>\r\n<ul>\r\n  <li id=\"home_button\" (click)=\"navigate('/')\">\r\n    <i class=\"material-icons\">&#xE88A;</i>\r\n  </li>\r\n  <li *ngFor=\"let value of listValues\" (click)=\"navigate(value)\">\r\n    {{value.runtimeType.toString() == 'Post' ? value.title : monthValue(value)}}\r\n  </li>\r\n</ul>\r\n",
+        "template": "<button id=\"menu_button\" (click)=\"isOpen ? close() : open()\"><i class=\"material-icons\">menu</i></button>\r\n<ul>\r\n  <li id=\"home_button\" (click)=\"navigate('/')\">\r\n    <i class=\"material-icons\">&#xE88A;</i>\r\n  </li>\r\n  <li *ngFor=\"let value of listValues\" (click)=\"navigate(value)\">\r\n    {{menuItem(value)}}\r\n  </li>\r\n</ul>\r\n",
         "templateUrl": "asset:blog_client/web/html/menu_component.html",
         "styles": [],
         "styleUrls": [

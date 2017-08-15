@@ -4,6 +4,6 @@
     <i class="material-icons">&#xE88A;</i>
   </li>
   <li *ngFor="let value of listValues" (click)="navigate(value)">
-    {{value.runtimeType.toString() == 'Post' ? value.title : monthValue(value)}}
+    {{menuItem(value)}}
   </li>
 </ul>
